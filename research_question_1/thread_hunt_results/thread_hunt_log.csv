@@ -1,0 +1,6 @@
+timestamp,service,target_rps,threads,status,elapsed_seconds,total_success,total_failed,total_dropped,avg_response_time,throughput_rps,fail_pct,drop_pct,output_file,stop_reason
+2026-04-06T09:55:51.434855,persistence,2000,250,pass,3.2,0,0,0,0.0,0.0,0.0,0.0,hunt_persistence_r2000_t250.csv,no_csv_stats
+2026-04-06T09:55:54.650140,image,2000,250,pass,3.2,0,0,0,0.0,0.0,0.0,0.0,hunt_image_r2000_t250.csv,no_csv_stats
+2026-04-06T09:58:44.735296,persistence,2000,250,pass,3.3,0,0,0,0.0,0.0,0.0,0.0,hunt_persistence_r2000_t250.csv,no_csv_stats
+2026-04-06T09:59:06.920115,persistence,2000,250,pass,3.3,0,0,0,0.0,0.0,0.0,0.0,hunt_persistence_r2000_t250.csv,no_csv_stats
+2026-04-06T09:59:10.362174,image,2000,250,pass,3.4,0,0,0,0.0,0.0,0.0,0.0,hunt_image_r2000_t250.csv,no_csv_stats
