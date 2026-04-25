@@ -1,0 +1,237 @@
+category,cpu_level,service,intensity,threads,throughput_req_s,avg_response_time_sec,fail_rate_pct,drop_rate_pct,max_load_intensity,relative_path
+rq1_combined,,all_services,high,1,10.325,0.095235,0,98.779467,2000,combined_test_results/combined_high_t1.csv
+rq1_combined,,all_services,high,5,46.125,0.094076,0,94.558164,2000,combined_test_results/combined_high_t5.csv
+rq1_combined,,all_services,high,10,69.116667,0.09348,0,91.852092,2000,combined_test_results/combined_high_t10.csv
+rq1_combined,,all_services,high,25,147.75,0.100563,0,82.564657,2000,combined_test_results/combined_high_t25.csv
+rq1_combined,,all_services,high,50,181.791667,0.12814,9.34607,69.23749,2000,combined_test_results/combined_high_t50.csv
+rq1_combined,,all_services,high,100,192.408333,0.165153,19.386821,57.880849,2000,combined_test_results/combined_high_t100.csv
+rq1_combined,,all_services,high,250,196.8,0.29102,26.833906,49.897035,2000,combined_test_results/combined_high_t250.csv
+rq1_combined,,all_services,low,1,9.260504,0.096844,0,77.858147,99,combined_test_results/combined_low_t1.csv
+rq1_combined,,all_services,low,5,34.008403,0.091739,0,18.816449,99,combined_test_results/combined_low_t5.csv
+rq1_combined,,all_services,low,10,49.764706,0.100265,0,0,99,combined_test_results/combined_low_t10.csv
+rq1_combined,,all_services,low,25,49.882353,0.133316,0,0,99,combined_test_results/combined_low_t25.csv
+rq1_combined,,all_services,low,50,49.865546,0.140782,0,0,99,combined_test_results/combined_low_t50.csv
+rq1_combined,,all_services,low,100,49.831933,0.146425,0,0,99,combined_test_results/combined_low_t100.csv
+rq1_combined,,all_services,low,250,49.663866,0.135809,0,0,99,combined_test_results/combined_low_t250.csv
+rq1_combined,,all_services,med,1,8.116667,0.100983,0,98.083168,1000,combined_test_results/combined_med_t1.csv
+rq1_combined,,all_services,med,5,41.208333,0.092764,0,90.288497,1000,combined_test_results/combined_med_t5.csv
+rq1_combined,,all_services,med,10,95.566667,0.094196,0,77.439408,1000,combined_test_results/combined_med_t10.csv
+rq1_combined,,all_services,med,25,172.058333,0.108714,2.070389,57.333858,1000,combined_test_results/combined_med_t25.csv
+rq1_combined,,all_services,med,50,179.516667,0.127748,21.673639,36.019953,1000,combined_test_results/combined_med_t50.csv
+rq1_combined,,all_services,med,100,187.108333,0.183224,35.87911,19.913369,1000,combined_test_results/combined_med_t100.csv
+rq1_combined,,all_services,med,250,185.925,0.343062,45.807089,10.139204,1000,combined_test_results/combined_med_t250.csv
+rq1_isolated,,persistence,,,41.176471,0.034553,0,0,99,rq1_persistence_isolated.csv
+rq1_isolated,,persistence,,50,773.55,0.046403,0,0,2000,rq1_persistence_isolated50.csv
+rq1_isolated,,persistence,,250,49.915966,0.046496,0,0,99,rq1_persistence_isolated250.csv
+rq1_isolated,,persistence,,1500,,,,,,rq1_persistence_isolated1500.csv
+rq1_isolated,,persistence,,2500,,,,,,rq1_persistence_isolated2500.csv
+rq1_service,100% CPU,auth,high,1,35.4,0.027026,0,95.823543,2000,load_test_results/100% CPU/rq1_auth_high_t1.csv
+rq1_service,100% CPU,auth,high,5,161.541667,0.028731,0,80.942222,2000,load_test_results/100% CPU/rq1_auth_high_t5.csv
+rq1_service,100% CPU,auth,high,10,305.5,0.029231,0,64.018256,2000,load_test_results/100% CPU/rq1_auth_high_t10.csv
+rq1_service,100% CPU,auth,high,25,610.975,0.032568,0,28.038044,2000,load_test_results/100% CPU/rq1_auth_high_t25.csv
+rq1_service,100% CPU,auth,high,50,920.366667,0.035114,0,0,2000,load_test_results/100% CPU/rq1_auth_high_t50.csv
+rq1_service,100% CPU,auth,high,100,1005.633333,0.041791,0,0,2000,load_test_results/100% CPU/rq1_auth_high_t100.csv
+rq1_service,100% CPU,auth,high,250,,,,,,load_test_results/100% CPU/rq1_auth_high_t250.csv
+rq1_service,100% CPU,auth,low,1,27.840336,0.029531,0,33.567275,99,load_test_results/100% CPU/rq1_auth_low_t1.csv
+rq1_service,100% CPU,auth,low,5,49.915966,0.034771,0,0,99,load_test_results/100% CPU/rq1_auth_low_t5.csv
+rq1_service,100% CPU,auth,low,10,49.857143,0.032458,0,0,99,load_test_results/100% CPU/rq1_auth_low_t10.csv
+rq1_service,100% CPU,auth,low,25,49.823529,0.033204,0,0,99,load_test_results/100% CPU/rq1_auth_low_t25.csv
+rq1_service,100% CPU,auth,low,50,49.907563,0.032604,0,0,99,load_test_results/100% CPU/rq1_auth_low_t50.csv
+rq1_service,100% CPU,auth,low,100,49.890756,0.035137,0,0,99,load_test_results/100% CPU/rq1_auth_low_t100.csv
+rq1_service,100% CPU,auth,low,250,49.915966,0.03645,0,0,99,load_test_results/100% CPU/rq1_auth_low_t250.csv
+rq1_service,100% CPU,auth,med,1,33.925,0.028054,0,91.99945,1000,load_test_results/100% CPU/rq1_auth_med_t1.csv
+rq1_service,100% CPU,auth,med,5,134.233333,0.033624,0,68.31504,1000,load_test_results/100% CPU/rq1_auth_med_t5.csv
+rq1_service,100% CPU,auth,med,10,265.166667,0.031403,0,37.422565,1000,load_test_results/100% CPU/rq1_auth_med_t10.csv
+rq1_service,100% CPU,auth,med,25,459.175,0.033503,0,0,1000,load_test_results/100% CPU/rq1_auth_med_t25.csv
+rq1_service,100% CPU,auth,med,50,503.683333,0.035721,0,0,1000,load_test_results/100% CPU/rq1_auth_med_t50.csv
+rq1_service,100% CPU,auth,med,100,503.816667,0.037367,0,0,1000,load_test_results/100% CPU/rq1_auth_med_t100.csv
+rq1_service,100% CPU,auth,med,250,,,,,,load_test_results/100% CPU/rq1_auth_med_t250.csv
+rq1_service,100% CPU,image,high,1,33.466667,0.0286,0,96.055204,2000,load_test_results/100% CPU/rq1_image_high_t1.csv
+rq1_service,100% CPU,image,high,5,159.075,0.029291,0,81.232118,2000,load_test_results/100% CPU/rq1_image_high_t5.csv
+rq1_service,100% CPU,image,high,10,289.65,0.031073,0,65.882388,2000,load_test_results/100% CPU/rq1_image_high_t10.csv
+rq1_service,100% CPU,image,high,25,596.266667,0.034839,0,29.656501,2000,load_test_results/100% CPU/rq1_image_high_t25.csv
+rq1_service,100% CPU,image,high,50,912.283333,0.035992,0,0,2000,load_test_results/100% CPU/rq1_image_high_t50.csv
+rq1_service,100% CPU,image,high,100,1008,0.040599,0,0,2000,load_test_results/100% CPU/rq1_image_high_t100.csv
+rq1_service,100% CPU,image,high,250,,,,,,load_test_results/100% CPU/rq1_image_high_t250.csv
+rq1_service,100% CPU,image,low,1,28.109244,0.028996,0,32.84481,99,load_test_results/100% CPU/rq1_image_low_t1.csv
+rq1_service,100% CPU,image,low,5,49.915966,0.031225,0,0,99,load_test_results/100% CPU/rq1_image_low_t5.csv
+rq1_service,100% CPU,image,low,10,49.915966,0.031553,0,0,99,load_test_results/100% CPU/rq1_image_low_t10.csv
+rq1_service,100% CPU,image,low,25,49.890756,0.032712,0,0,99,load_test_results/100% CPU/rq1_image_low_t25.csv
+rq1_service,100% CPU,image,low,50,49.89916,0.032395,0,0,99,load_test_results/100% CPU/rq1_image_low_t50.csv
+rq1_service,100% CPU,image,low,100,49.915966,0.032113,0,0,99,load_test_results/100% CPU/rq1_image_low_t100.csv
+rq1_service,100% CPU,image,low,250,,,,,,load_test_results/100% CPU/rq1_image_low_t250.csv
+rq1_service,100% CPU,image,med,1,33.625,0.028248,0,92.063024,1000,load_test_results/100% CPU/rq1_image_med_t1.csv
+rq1_service,100% CPU,image,med,5,151.275,0.029838,0,64.292458,1000,load_test_results/100% CPU/rq1_image_med_t5.csv
+rq1_service,100% CPU,image,med,10,268.866667,0.030669,0,36.584311,1000,load_test_results/100% CPU/rq1_image_med_t10.csv
+rq1_service,100% CPU,image,med,25,465.725,0.034121,0,0,1000,load_test_results/100% CPU/rq1_image_med_t25.csv
+rq1_service,100% CPU,image,med,50,503.808333,0.037801,0,0,1000,load_test_results/100% CPU/rq1_image_med_t50.csv
+rq1_service,100% CPU,image,med,100,,,,,,load_test_results/100% CPU/rq1_image_med_t100.csv
+rq1_service,100% CPU,image,med,250,,,,,,load_test_results/100% CPU/rq1_image_med_t250.csv
+rq1_service,100% CPU,persistence,high,1,27.7,0.034855,0,96.731981,2000,load_test_results/100% CPU/rq1_persistence_high_t1.csv
+rq1_service,100% CPU,persistence,high,5,134.225,0.03517,0,84.191775,2000,load_test_results/100% CPU/rq1_persistence_high_t5.csv
+rq1_service,100% CPU,persistence,high,10,248.425,0.036865,0,70.716685,2000,load_test_results/100% CPU/rq1_persistence_high_t10.csv
+rq1_service,100% CPU,persistence,high,25,519.608333,0.040454,0,38.749509,2000,load_test_results/100% CPU/rq1_persistence_high_t25.csv
+rq1_service,100% CPU,persistence,high,50,777.591667,0.047617,0,8.268614,2000,load_test_results/100% CPU/rq1_persistence_high_t50.csv
+rq1_service,100% CPU,persistence,high,100,988.283333,0.058475,0,0,2000,load_test_results/100% CPU/rq1_persistence_high_t100.csv
+rq1_service,100% CPU,persistence,high,250,,,,,,load_test_results/100% CPU/rq1_persistence_high_t250.csv
+rq1_service,100% CPU,persistence,low,1,24.579832,0.034282,0,41.441441,99,load_test_results/100% CPU/rq1_persistence_low_t1.csv
+rq1_service,100% CPU,persistence,low,5,49.882353,0.036737,0,0,99,load_test_results/100% CPU/rq1_persistence_low_t5.csv
+rq1_service,100% CPU,persistence,low,10,49.915966,0.038586,0,0,99,load_test_results/100% CPU/rq1_persistence_low_t10.csv
+rq1_service,100% CPU,persistence,low,25,49.87395,0.044689,0,0,99,load_test_results/100% CPU/rq1_persistence_low_t25.csv
+rq1_service,100% CPU,persistence,low,50,49.798319,0.063084,0,0,99,load_test_results/100% CPU/rq1_persistence_low_t50.csv
+rq1_service,100% CPU,persistence,low,100,49.848739,0.045628,0,0,99,load_test_results/100% CPU/rq1_persistence_low_t100.csv
+rq1_service,100% CPU,persistence,low,250,49.865546,0.047022,0,0,99,load_test_results/100% CPU/rq1_persistence_low_t250.csv
+rq1_service,100% CPU,persistence,med,1,27.991667,0.034351,0,93.409461,1000,load_test_results/100% CPU/rq1_persistence_med_t1.csv
+rq1_service,100% CPU,persistence,med,5,131.566667,0.034532,0,68.943269,1000,load_test_results/100% CPU/rq1_persistence_med_t5.csv
+rq1_service,100% CPU,persistence,med,10,233.4,0.03651,0,44.949584,1000,load_test_results/100% CPU/rq1_persistence_med_t10.csv
+rq1_service,100% CPU,persistence,med,25,427.058333,0.042111,0,0,1000,load_test_results/100% CPU/rq1_persistence_med_t25.csv
+rq1_service,100% CPU,persistence,med,50,503.475,0.049234,0,0,1000,load_test_results/100% CPU/rq1_persistence_med_t50.csv
+rq1_service,100% CPU,persistence,med,100,502.566667,0.05487,0,0,1000,load_test_results/100% CPU/rq1_persistence_med_t100.csv
+rq1_service,100% CPU,persistence,med,250,503.291667,0.076713,0,0,1000,load_test_results/100% CPU/rq1_persistence_med_t250.csv
+rq1_service,100% CPU,recommender,high,1,34.8,0.027571,0,95.898242,2000,load_test_results/100% CPU/rq1_recommender_high_t1.csv
+rq1_service,100% CPU,recommender,high,5,161.991667,0.028709,0,80.888382,2000,load_test_results/100% CPU/rq1_recommender_high_t5.csv
+rq1_service,100% CPU,recommender,high,10,300.608333,0.029741,0,64.566225,2000,load_test_results/100% CPU/rq1_recommender_high_t10.csv
+rq1_service,100% CPU,recommender,high,25,610.191667,0.0328,0,28.074535,2000,load_test_results/100% CPU/rq1_recommender_high_t25.csv
+rq1_service,100% CPU,recommender,high,50,928.091667,0.034796,0,0,2000,load_test_results/100% CPU/rq1_recommender_high_t50.csv
+rq1_service,100% CPU,recommender,high,100,1006.283333,0.039411,0,0,2000,load_test_results/100% CPU/rq1_recommender_high_t100.csv
+rq1_service,100% CPU,recommender,high,250,1008,0.042642,0,0,2000,load_test_results/100% CPU/rq1_recommender_high_t250.csv
+rq1_service,100% CPU,recommender,low,1,27.529412,0.029964,0,34.309204,99,load_test_results/100% CPU/rq1_recommender_low_t1.csv
+rq1_service,100% CPU,recommender,low,5,49.915966,0.031277,0,0,99,load_test_results/100% CPU/rq1_recommender_low_t5.csv
+rq1_service,100% CPU,recommender,low,10,49.915966,0.032711,0,0,99,load_test_results/100% CPU/rq1_recommender_low_t10.csv
+rq1_service,100% CPU,recommender,low,25,49.89916,0.032029,0,0,99,load_test_results/100% CPU/rq1_recommender_low_t25.csv
+rq1_service,100% CPU,recommender,low,50,49.831933,0.042664,0,0,99,load_test_results/100% CPU/rq1_recommender_low_t50.csv
+rq1_service,100% CPU,recommender,low,100,49.840336,0.034595,0,0,99,load_test_results/100% CPU/rq1_recommender_low_t100.csv
+rq1_service,100% CPU,recommender,low,250,,,,,,load_test_results/100% CPU/rq1_recommender_low_t250.csv
+rq1_service,100% CPU,recommender,med,1,33.575,0.028424,0,92.074826,1000,load_test_results/100% CPU/rq1_recommender_med_t1.csv
+rq1_service,100% CPU,recommender,med,5,150.05,0.029757,0,64.576038,1000,load_test_results/100% CPU/rq1_recommender_med_t5.csv
+rq1_service,100% CPU,recommender,med,10,263.916667,0.031378,0,37.702854,1000,load_test_results/100% CPU/rq1_recommender_med_t10.csv
+rq1_service,100% CPU,recommender,med,25,463.541667,0.034572,0,0,1000,load_test_results/100% CPU/rq1_recommender_med_t25.csv
+rq1_service,100% CPU,recommender,med,50,,,,,,load_test_results/100% CPU/rq1_recommender_med_t50.csv
+rq1_service,100% CPU,recommender,med,100,503.816667,0.035871,0,0,1000,load_test_results/100% CPU/rq1_recommender_med_t100.csv
+rq1_service,100% CPU,recommender,med,250,503.833333,0.038336,0,0,1000,load_test_results/100% CPU/rq1_recommender_med_t250.csv
+rq1_service,100% CPU,webui,high,1,10.408333,0.094512,0,98.772035,2000,load_test_results/100% CPU/rq1_webui_high_t1.csv
+rq1_service,100% CPU,webui,high,5,33.608333,0.089909,0,96.034103,2000,load_test_results/100% CPU/rq1_webui_high_t5.csv
+rq1_service,100% CPU,webui,high,10,82.233333,0.092075,0,90.29781,2000,load_test_results/100% CPU/rq1_webui_high_t10.csv
+rq1_service,100% CPU,webui,high,25,178.233333,0.107917,0,78.969518,2000,load_test_results/100% CPU/rq1_webui_high_t25.csv
+rq1_service,100% CPU,webui,high,50,222.133333,0.134683,0,73.781585,2000,load_test_results/100% CPU/rq1_webui_high_t50.csv
+rq1_service,100% CPU,webui,high,100,272.508333,0.19974,0,67.877526,2000,load_test_results/100% CPU/rq1_webui_high_t100.csv
+rq1_service,100% CPU,webui,high,250,,,,,,load_test_results/100% CPU/rq1_webui_high_t250.csv
+rq1_service,100% CPU,webui,low,1,9.823529,0.097399,0,76.52139,99,load_test_results/100% CPU/rq1_webui_low_t1.csv
+rq1_service,100% CPU,webui,low,5,37.806723,0.091948,0,9.911894,99,load_test_results/100% CPU/rq1_webui_low_t5.csv
+rq1_service,100% CPU,webui,low,10,49.739496,0.10135,0,0,99,load_test_results/100% CPU/rq1_webui_low_t10.csv
+rq1_service,100% CPU,webui,low,25,49.731092,0.145397,0,0,99,load_test_results/100% CPU/rq1_webui_low_t25.csv
+rq1_service,100% CPU,webui,low,50,49.697479,0.153488,0,0,99,load_test_results/100% CPU/rq1_webui_low_t50.csv
+rq1_service,100% CPU,webui,low,100,49.815126,0.145766,0,0,99,load_test_results/100% CPU/rq1_webui_low_t100.csv
+rq1_service,100% CPU,webui,low,250,49.563025,0.135247,0,0,99,load_test_results/100% CPU/rq1_webui_low_t250.csv
+rq1_service,100% CPU,webui,med,1,9.7,0.101543,0,97.712444,1000,load_test_results/100% CPU/rq1_webui_med_t1.csv
+rq1_service,100% CPU,webui,med,5,30.991667,0.09222,0,92.684318,1000,load_test_results/100% CPU/rq1_webui_med_t5.csv
+rq1_service,100% CPU,webui,med,10,87.708333,0.095408,0,79.294132,1000,load_test_results/100% CPU/rq1_webui_med_t10.csv
+rq1_service,100% CPU,webui,med,25,165.075,0.108758,0,61.015115,1000,load_test_results/100% CPU/rq1_webui_med_t25.csv
+rq1_service,100% CPU,webui,med,50,216.991667,0.144301,0,48.826743,1000,load_test_results/100% CPU/rq1_webui_med_t50.csv
+rq1_service,100% CPU,webui,med,100,259.15,0.204864,0,38.762972,1000,load_test_results/100% CPU/rq1_webui_med_t100.csv
+rq1_service,100% CPU,webui,med,250,,,,,,load_test_results/100% CPU/rq1_webui_med_t250.csv
+rq1_service,50% CPU,auth,high,1,33.608333,0.028515,0,96.041887,2000,load_test_results/50% CPU/rq1_auth_high_t1.csv
+rq1_service,50% CPU,auth,high,5,157.533333,0.029655,0,81.446476,2000,load_test_results/50% CPU/rq1_auth_high_t5.csv
+rq1_service,50% CPU,auth,high,10,292.775,0.030678,0,65.485839,2000,load_test_results/50% CPU/rq1_auth_high_t10.csv
+rq1_service,50% CPU,auth,high,25,630.133333,0.031317,0,25.65164,2000,load_test_results/50% CPU/rq1_auth_high_t25.csv
+rq1_service,50% CPU,auth,high,50,,,,,,load_test_results/50% CPU/rq1_auth_high_t50.csv
+rq1_service,50% CPU,auth,high,100,,,,,,load_test_results/50% CPU/rq1_auth_high_t100.csv
+rq1_service,50% CPU,auth,high,250,,,,,,load_test_results/50% CPU/rq1_auth_high_t250.csv
+rq1_service,50% CPU,auth,low,1,27.722689,0.029619,0,33.901022,99,load_test_results/50% CPU/rq1_auth_low_t1.csv
+rq1_service,50% CPU,auth,low,5,49.857143,0.031127,0,0,99,load_test_results/50% CPU/rq1_auth_low_t5.csv
+rq1_service,50% CPU,auth,low,10,49.915966,0.042097,0,0,99,load_test_results/50% CPU/rq1_auth_low_t10.csv
+rq1_service,50% CPU,auth,low,25,49.865546,0.031951,0,0,99,load_test_results/50% CPU/rq1_auth_low_t25.csv
+rq1_service,50% CPU,auth,low,50,49.831933,0.03177,0,0,99,load_test_results/50% CPU/rq1_auth_low_t50.csv
+rq1_service,50% CPU,auth,low,100,,,,,,load_test_results/50% CPU/rq1_auth_low_t100.csv
+rq1_service,50% CPU,auth,low,250,,,,,,load_test_results/50% CPU/rq1_auth_low_t250.csv
+rq1_service,50% CPU,auth,med,1,33.316667,0.02859,0,92.135804,1000,load_test_results/50% CPU/rq1_auth_med_t1.csv
+rq1_service,50% CPU,auth,med,5,150.15,0.029756,0,64.546152,1000,load_test_results/50% CPU/rq1_auth_med_t5.csv
+rq1_service,50% CPU,auth,med,10,267.858333,0.030701,0,36.823381,1000,load_test_results/50% CPU/rq1_auth_med_t10.csv
+rq1_service,50% CPU,auth,med,25,479.991667,0.032782,0,0,1000,load_test_results/50% CPU/rq1_auth_med_t25.csv
+rq1_service,50% CPU,auth,med,50,,,,,,load_test_results/50% CPU/rq1_auth_med_t50.csv
+rq1_service,50% CPU,auth,med,100,,,,,,load_test_results/50% CPU/rq1_auth_med_t100.csv
+rq1_service,50% CPU,auth,med,250,,,,,,load_test_results/50% CPU/rq1_auth_med_t250.csv
+rq1_service,50% CPU,image,high,1,32.741667,0.029314,0,96.137208,2000,load_test_results/50% CPU/rq1_image_high_t1.csv
+rq1_service,50% CPU,image,high,5,159.991667,0.029074,0,81.155281,2000,load_test_results/50% CPU/rq1_image_high_t5.csv
+rq1_service,50% CPU,image,high,10,301.633333,0.029631,0,64.503285,2000,load_test_results/50% CPU/rq1_image_high_t10.csv
+rq1_service,50% CPU,image,high,25,614.716667,0.032637,0,27.603737,2000,load_test_results/50% CPU/rq1_image_high_t25.csv
+rq1_service,50% CPU,image,high,50,935.375,0.034352,0,0,2000,load_test_results/50% CPU/rq1_image_high_t50.csv
+rq1_service,50% CPU,image,high,100,1007.991667,0.039636,0,0,2000,load_test_results/50% CPU/rq1_image_high_t100.csv
+rq1_service,50% CPU,image,high,250,1007.858333,0.041247,0,0,2000,load_test_results/50% CPU/rq1_image_high_t250.csv
+rq1_service,50% CPU,image,low,1,27.12605,0.030735,0,35.245737,99,load_test_results/50% CPU/rq1_image_low_t1.csv
+rq1_service,50% CPU,image,low,5,49.915966,0.031552,0,0,99,load_test_results/50% CPU/rq1_image_low_t5.csv
+rq1_service,50% CPU,image,low,10,0.666667,0.6195,0,0,2,load_test_results/50% CPU/rq1_image_low_t10.csv
+rq1_service,50% CPU,image,low,25,49.915966,0.033018,0,0,99,load_test_results/50% CPU/rq1_image_low_t25.csv
+rq1_service,50% CPU,image,low,50,49.915966,0.031046,0,0,99,load_test_results/50% CPU/rq1_image_low_t50.csv
+rq1_service,50% CPU,image,low,100,49.87395,0.030752,0,0,99,load_test_results/50% CPU/rq1_image_low_t100.csv
+rq1_service,50% CPU,image,low,250,49.857143,0.033264,0,0,99,load_test_results/50% CPU/rq1_image_low_t250.csv
+rq1_service,50% CPU,image,med,1,32.508333,0.029302,0,92.345727,1000,load_test_results/50% CPU/rq1_image_med_t1.csv
+rq1_service,50% CPU,image,med,5,156.858333,0.02835,0,63.00511,1000,load_test_results/50% CPU/rq1_image_med_t5.csv
+rq1_service,50% CPU,image,med,10,272.475,0.030164,0,35.685202,1000,load_test_results/50% CPU/rq1_image_med_t10.csv
+rq1_service,50% CPU,image,med,25,473.941667,0.032959,0,0,1000,load_test_results/50% CPU/rq1_image_med_t25.csv
+rq1_service,50% CPU,image,med,50,503.683333,0.036536,0,0,1000,load_test_results/50% CPU/rq1_image_med_t50.csv
+rq1_service,50% CPU,image,med,100,503.183333,0.038492,0,0,1000,load_test_results/50% CPU/rq1_image_med_t100.csv
+rq1_service,50% CPU,image,med,250,503.65,0.0388,0,0,1000,load_test_results/50% CPU/rq1_image_med_t250.csv
+rq1_service,50% CPU,persistence,high,1,27.325,0.035382,0,96.77901,2000,load_test_results/50% CPU/rq1_persistence_high_t1.csv
+rq1_service,50% CPU,persistence,high,5,133.766667,0.035182,0,84.217874,2000,load_test_results/50% CPU/rq1_persistence_high_t5.csv
+rq1_service,50% CPU,persistence,high,10,249.825,0.0366,0,70.577093,2000,load_test_results/50% CPU/rq1_persistence_high_t10.csv
+rq1_service,50% CPU,persistence,high,25,532.066667,0.039047,0,37.222359,2000,load_test_results/50% CPU/rq1_persistence_high_t25.csv
+rq1_service,50% CPU,persistence,high,50,818.783333,0.044066,0,3.476663,2000,load_test_results/50% CPU/rq1_persistence_high_t50.csv
+rq1_service,50% CPU,persistence,high,100,1000.116667,0.056107,0,0,2000,load_test_results/50% CPU/rq1_persistence_high_t100.csv
+rq1_service,50% CPU,persistence,high,250,,,,,,load_test_results/50% CPU/rq1_persistence_high_t250.csv
+rq1_service,50% CPU,persistence,low,1,23.554622,0.03639,0,43.895116,99,load_test_results/50% CPU/rq1_persistence_low_t1.csv
+rq1_service,50% CPU,persistence,low,5,49.907563,0.036086,0,0,99,load_test_results/50% CPU/rq1_persistence_low_t5.csv
+rq1_service,50% CPU,persistence,low,10,49.915966,0.039112,0,0,99,load_test_results/50% CPU/rq1_persistence_low_t10.csv
+rq1_service,50% CPU,persistence,low,25,49.798319,0.044721,0,0,99,load_test_results/50% CPU/rq1_persistence_low_t25.csv
+rq1_service,50% CPU,persistence,low,50,49.915966,0.045378,0,0,99,load_test_results/50% CPU/rq1_persistence_low_t50.csv
+rq1_service,50% CPU,persistence,low,100,49.907563,0.069791,0,0,99,load_test_results/50% CPU/rq1_persistence_low_t100.csv
+rq1_service,50% CPU,persistence,low,250,,,,,,load_test_results/50% CPU/rq1_persistence_low_t250.csv
+rq1_service,50% CPU,persistence,med,1,28.225,0.0341,0,93.337661,1000,load_test_results/50% CPU/rq1_persistence_med_t1.csv
+rq1_service,50% CPU,persistence,med,5,131.083333,0.034699,0,69.026897,1000,load_test_results/50% CPU/rq1_persistence_med_t5.csv
+rq1_service,50% CPU,persistence,med,10,233.433333,0.036431,0,44.907071,1000,load_test_results/50% CPU/rq1_persistence_med_t10.csv
+rq1_service,50% CPU,persistence,med,25,427.025,0.040403,0,0,1000,load_test_results/50% CPU/rq1_persistence_med_t25.csv
+rq1_service,50% CPU,persistence,med,50,503.791667,0.046586,0,0,1000,load_test_results/50% CPU/rq1_persistence_med_t50.csv
+rq1_service,50% CPU,persistence,med,100,,,,,,load_test_results/50% CPU/rq1_persistence_med_t100.csv
+rq1_service,50% CPU,persistence,med,250,,,,,,load_test_results/50% CPU/rq1_persistence_med_t250.csv
+rq1_service,50% CPU,recommender,high,1,33.283333,0.028828,0,96.071643,2000,load_test_results/50% CPU/rq1_recommender_high_t1.csv
+rq1_service,50% CPU,recommender,high,5,157.675,0.029477,0,81.445088,2000,load_test_results/50% CPU/rq1_recommender_high_t5.csv
+rq1_service,50% CPU,recommender,high,10,290.883333,0.030938,0,65.713556,2000,load_test_results/50% CPU/rq1_recommender_high_t10.csv
+rq1_service,50% CPU,recommender,high,25,608.925,0.032817,0,28.230187,2000,load_test_results/50% CPU/rq1_recommender_high_t25.csv
+rq1_service,50% CPU,recommender,high,50,930.45,0.035179,0,0,2000,load_test_results/50% CPU/rq1_recommender_high_t50.csv
+rq1_service,50% CPU,recommender,high,100,1008,0.038874,0,0,2000,load_test_results/50% CPU/rq1_recommender_high_t100.csv
+rq1_service,50% CPU,recommender,high,250,,,,,,load_test_results/50% CPU/rq1_recommender_high_t250.csv
+rq1_service,50% CPU,recommender,low,1,27.453782,0.030096,0,34.489673,99,load_test_results/50% CPU/rq1_recommender_low_t1.csv
+rq1_service,50% CPU,recommender,low,5,49.882353,0.032037,0,0,99,load_test_results/50% CPU/rq1_recommender_low_t5.csv
+rq1_service,50% CPU,recommender,low,10,49.823529,0.037796,0,0,99,load_test_results/50% CPU/rq1_recommender_low_t10.csv
+rq1_service,50% CPU,recommender,low,25,49.915966,0.032512,0,0,99,load_test_results/50% CPU/rq1_recommender_low_t25.csv
+rq1_service,50% CPU,recommender,low,50,49.915966,0.033211,0,0,99,load_test_results/50% CPU/rq1_recommender_low_t50.csv
+rq1_service,50% CPU,recommender,low,100,49.882353,0.032555,0,0,99,load_test_results/50% CPU/rq1_recommender_low_t100.csv
+rq1_service,50% CPU,recommender,low,250,,,,,,load_test_results/50% CPU/rq1_recommender_low_t250.csv
+rq1_service,50% CPU,recommender,med,1,33.483333,0.028471,0,92.110275,1000,load_test_results/50% CPU/rq1_recommender_med_t1.csv
+rq1_service,50% CPU,recommender,med,5,143.725,0.032089,0,66.138532,1000,load_test_results/50% CPU/rq1_recommender_med_t5.csv
+rq1_service,50% CPU,recommender,med,10,270.041667,0.030598,0,36.2721,1000,load_test_results/50% CPU/rq1_recommender_med_t10.csv
+rq1_service,50% CPU,recommender,med,25,473.633333,0.033497,0,0,1000,load_test_results/50% CPU/rq1_recommender_med_t25.csv
+rq1_service,50% CPU,recommender,med,50,503.383333,0.039111,0,0,1000,load_test_results/50% CPU/rq1_recommender_med_t50.csv
+rq1_service,50% CPU,recommender,med,100,503.558333,0.038528,0,0,1000,load_test_results/50% CPU/rq1_recommender_med_t100.csv
+rq1_service,50% CPU,recommender,med,250,,,,,,load_test_results/50% CPU/rq1_recommender_med_t250.csv
+rq1_service,50% CPU,webui,high,1,11.675,0.084059,0,98.622378,2000,load_test_results/50% CPU/rq1_webui_high_t1.csv
+rq1_service,50% CPU,webui,high,5,53.591667,0.077683,0,93.677059,2000,load_test_results/50% CPU/rq1_webui_high_t5.csv
+rq1_service,50% CPU,webui,high,10,76.733333,0.089155,0,90.946275,2000,load_test_results/50% CPU/rq1_webui_high_t10.csv
+rq1_service,50% CPU,webui,high,25,150.15,0.107858,0,82.277087,2000,load_test_results/50% CPU/rq1_webui_high_t25.csv
+rq1_service,50% CPU,webui,high,50,220.383333,0.134276,0,74.009356,2000,load_test_results/50% CPU/rq1_webui_high_t50.csv
+rq1_service,50% CPU,webui,high,100,252.858333,0.165427,0,70.116607,2000,load_test_results/50% CPU/rq1_webui_high_t100.csv
+rq1_service,50% CPU,webui,high,250,,,,,,load_test_results/50% CPU/rq1_webui_high_t250.csv
+rq1_service,50% CPU,webui,low,1,9.882353,0.099347,0,76.395022,99,load_test_results/50% CPU/rq1_webui_low_t1.csv
+rq1_service,50% CPU,webui,low,5,38.957983,0.087828,0,7.001003,99,load_test_results/50% CPU/rq1_webui_low_t5.csv
+rq1_service,50% CPU,webui,low,10,49.823529,0.099699,0,0,99,load_test_results/50% CPU/rq1_webui_low_t10.csv
+rq1_service,50% CPU,webui,low,25,49.831933,0.141512,0,0,99,load_test_results/50% CPU/rq1_webui_low_t25.csv
+rq1_service,50% CPU,webui,low,50,49.857143,0.143368,0,0,99,load_test_results/50% CPU/rq1_webui_low_t50.csv
+rq1_service,50% CPU,webui,low,100,49.764706,0.138031,0,0,99,load_test_results/50% CPU/rq1_webui_low_t100.csv
+rq1_service,50% CPU,webui,low,250,,,,,,load_test_results/50% CPU/rq1_webui_low_t250.csv
+rq1_service,50% CPU,webui,med,1,8.983333,0.09107,0,97.878955,1000,load_test_results/50% CPU/rq1_webui_med_t1.csv
+rq1_service,50% CPU,webui,med,5,21.1,0.092437,0,95.027592,1000,load_test_results/50% CPU/rq1_webui_med_t5.csv
+rq1_service,50% CPU,webui,med,10,90.825,0.091101,0,78.545276,1000,load_test_results/50% CPU/rq1_webui_med_t10.csv
+rq1_service,50% CPU,webui,med,25,138.575,0.099778,0,67.305651,1000,load_test_results/50% CPU/rq1_webui_med_t25.csv
+rq1_service,50% CPU,webui,med,50,219.041667,0.135257,0,48.258893,1000,load_test_results/50% CPU/rq1_webui_med_t50.csv
+rq1_service,50% CPU,webui,med,100,252.175,0.200438,0,40.420547,1000,load_test_results/50% CPU/rq1_webui_med_t100.csv
+rq1_service,50% CPU,webui,med,250,,,,,,load_test_results/50% CPU/rq1_webui_med_t250.csv
